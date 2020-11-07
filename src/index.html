@@ -1,0 +1,361 @@
+---
+layout: base
+---
+
+<!-- <div class="container">
+    <div class="homepage_image">
+        <img src="assets/img/Otago_Polytechnic Home inage.PNG" alt="Girl in a jacket" >
+    </div>  -->
+
+    <div class="container">
+        <div class="row">
+            <h2 class="BIT_header">BIT - Attendance</h2>
+        </div>
+        <div class="row">
+            <h2 class="topic">Studio Project: oct 21 2020 Monday, 13:00-15:00 </h2>
+        </div>
+    
+        <div class="row">
+    
+            <div class="col-md-10">
+            <div class="header-row">
+                <label><strong>Course Name</strong> </label>
+                <select>
+                    <option value="project">project 1</option>
+                    <option value="Project">Project 2</option>
+                    <option value="UX">UX Engineering</option>
+                    <option value="Networking">Networking 2</option>
+                  </select>
+                  &ensp;&ensp;
+                  <label><strong>Stream</strong> </label>
+                  <select>
+                      <option value="project">Stream A</option>
+                      <option value="Project">Stream B</option>
+                    </select>
+                    &ensp;&ensp;&ensp;
+                    <label><strong>Total Count</strong> </label>
+                 <span class="glyphicon glyphicon-remove"></span><label>1</label>
+                <span class="glyphicon glyphicon-ok"></span> <label>12</label>
+                <span class="glyphicon glyphicon-envelope"></span> <label>0</label>
+    
+                <button onclick="myFunction()"style="float: right;"type="button" class="btn btn-primary" id="submit-marks">Submit Marks</button>
+            </div>
+            <hr>
+    
+    <table id="students" class="display" style="width:100%">
+        <thead>
+            <!-- <tr>
+                 <th>Student Name</th>
+                <th>Student ID</th>
+                <th>Ethnicities</th>
+                <th>Progress Code</th>
+                <th>Mark</th>
+                <th>Action</th>
+            </tr> -->
+        </thead>
+        <tbody>
+           
+            <tr>
+                 <td>Bohara Depak</td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+    
+    
+            </tr>
+            <tr>
+                 <td>Bandari Rajan</td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+    
+    
+            </tr>
+            <tr>
+                 <td>Michale </td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+    
+    
+            </tr>
+            <tr>
+                 <td>Santosh Pub</td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+            <tr>
+                <td>Mike Pun</td>
+               <td>0273207307</td>
+               <td>International</td>
+               <td>ERN</td>
+            <td><select id="daysCombo">
+   <option value="1" selected="selected">Present</option>
+   <option value="2" >Absent</option>
+   <option value="3">Late</option>
+   <option value="4">Sick</option>
+   <option value="5">Explained Absent</option>
+   </select></td>
+           <td>
+               <button><span class="glyphicon glyphicon-remove"></span></button>
+               <button><span class="glyphicon glyphicon-ok"></span> </button>
+               <button><span class="glyphicon glyphicon-envelope"></span> </button>
+           </td>
+           <tr>
+            <td>Eric Jack</td>
+           <td>0273207307</td>
+           <td>International</td>
+           <td>ERN</td>
+        <td><select id="daysCombo">
+<option value="1" selected="selected">Present</option>
+<option value="2" >Absent</option>
+<option value="3">Late</option>
+<option value="4">Sick</option>
+<option value="5">Explained Absent</option>
+</select></td>
+       <td>
+           <button><span class="glyphicon glyphicon-remove"></span></button>
+           <button><span class="glyphicon glyphicon-ok"></span> </button>
+           <button><span class="glyphicon glyphicon-envelope"></span> </button>
+       </td>
+       <tr>
+        <td>Jack Eric</td>
+       <td>0273207307</td>
+       <td>International</td>
+       <td>ERN</td>
+    <td><select id="daysCombo">
+<option value="1" selected="selected">Present</option>
+<option value="2" >Absent</option>
+<option value="3">Late</option>
+<option value="4">Sick</option>
+<option value="5">Explained Absent</option>
+</select></td>
+   <td>
+       <button><span class="glyphicon glyphicon-remove"></span></button>
+       <button><span class="glyphicon glyphicon-ok"></span> </button>
+       <button><span class="glyphicon glyphicon-envelope"></span> </button>
+   </td>
+    
+    
+            </tr>
+            <tr>
+                 <td>Adon </td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+    
+    
+            </tr>
+            <tr>
+                 <td>Surace Adhikari</td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+    
+    
+            </tr>
+            <tr>
+                 <td>Sing Ruban</td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+    
+    
+            </tr>
+            <tr>
+                 <td>Ruban Sing</td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+    
+    
+            </tr>
+            <tr>
+                 <td>Jon Alex</td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+    
+    
+            </tr>
+            <tr>
+                 <td>Alex Jon</td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+    
+    
+            </tr>
+            <tr>
+                 <td>Suresh Adhikari</td>
+                <td>0273207307</td>
+                <td>International</td>
+                <td>ERN</td>
+             <td><select id="daysCombo">
+    <option value="1" selected="selected">Present</option>
+    <option value="2" >Absent</option>
+    <option value="3">Late</option>
+    <option value="4">Sick</option>
+    <option value="5">Explained Absent</option>
+    </select></td>
+            <td>
+                <button><span class="glyphicon glyphicon-remove"></span></button>
+                <button><span class="glyphicon glyphicon-ok"></span> </button>
+                <button><span class="glyphicon glyphicon-envelope"></span> </button>
+            </td>
+            </tr>
+            
+            
+        
+    </table>
+    </div>
+    <div class="sidebar col-md-2">
+        <div class="sidebar">
+            <img src="/assets/img/avtar.JPG" class="img-circle" alt="Cinque Terre" width="150" height="150"> 
+        </div>
+        <div class="namelabel"><label>Adhikari Surace</label></div>
+        <br>
+        <div class="namelabel"><label><strong>Email Address</strong> </label></div>
+        <div class="namelabel"><label>Suresh@gmail.com</label></div>
+        <br>
+        <div class="namelabel"><label><strong>Mobile Number</strong> </label></div>
+        <div class="namelabel"><label>027 111 1111</label></div>
+        <br>
+        <div class="namelabel"><label><strong>Ethnicities</strong> </label></div>
+        <div class="namelabel"><label>Nepali</label></div>
+        <br>
+        <div class="namelabel"><label><strong>Date</strong> </label></div>
+        <div class="namelabel"><label>12/10/2020</label></div>
+        <br>
+        <div class="namelabel"><label><strong>Period</strong> </label></div>
+        <div class="namelabel"><label>13:00-15:00</label></div>
+        <br>
+        <div class="namelabel"><label><strong>Day</strong> </label></div>
+        <div class="namelabel"><label>Monday</label></div>
+    </div>
+    </div>
+    
+    </div>
+    <script type="text/javascript" src="/assets/js/data.json"></script>
+    
+    <script type="text/javascript" src="/assets/js/script.js"></script>
