@@ -1,0 +1,49 @@
+body {
+	background: #f2f2f2;
+}
+
+.navbar .nav-item:not(:last-child) {
+	margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+	transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+	transform: translateY(3px);
+}
+.logo {
+	width: 100;
+	height: 50;
+}
+.topic {
+	margin-left: 150;
+	font-weight: bold;
+}
+.BIT_header {
+	margin-left: 300;
+	font-weight: bold;
+}
+.header-row {
+	font-size: 20px;
+}
+
+.homepage_image {
+	widows: 1020px;
+}
+.sidebar {
+	float: right;
+}
+table tr:hover {
+	cursor: pointer;
+}
+
+.popup{
+	position: absolute;
+	right: 10vw;
+	top: 10vh;
+	border-radius: 5px;
+	width: 300px;
+	display: none;
+}
