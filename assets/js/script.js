@@ -151,9 +151,9 @@ function fetchStudents(stream) {
 									r[1] +
 									'">' +
 									'<input type="input" id="attendance" value="" hidden />' +
-									'<button id="absent" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></button>' +
-									'<button id="present" class="btn btn-success ml-2 mr-2"><i class="glyphicon glyphicon-ok"></i></button>' +
-									'<button id="letter" class="btn btn-primary"><i class="glyphicon glyphicon-envelope"></i></button></div>'
+									'<button id="absent" class="btn btn-danger" title="Absent"><i class="glyphicon glyphicon-remove"></i></button>' +
+									'<button id="present" class="btn btn-success ml-2 mr-2" title="Present"><i class="glyphicon glyphicon-ok"></i></button>' +
+									'<button id="letter" class="btn btn-primary" title="Explained Message"><i class="glyphicon glyphicon-envelope"></i></button></div>'
 							);
 							return $select.prop('outerHTML');
 						},
