@@ -134,7 +134,7 @@ function fetchStudents(stream) {
 				studentData.push(attendance);
 				students.push(studentData);
 			});
-
+// creating a datatable
 			$('#students').DataTable({
 				data: students,
 				destroy: true,
@@ -145,6 +145,7 @@ function fetchStudents(stream) {
 					{ title: 'Attendance %' },
 					{
 						title: 'Attendance',
+						// insearting Action icon to mark student(absent, present, Message)
 						render: function (d, t, r) {
 							var $select = $(
 								'<div id="std_action_' +
@@ -163,7 +164,7 @@ function fetchStudents(stream) {
 		});
 }
 
-// get a student with id
+// get a student with id to show in sidebar
 function getStudentWithId(id) {
 	fetch('https://gist.githubusercontent.com/eallenOP/b40fa9bba517ff258da395c79edd2477/raw')
 		.then((response) => response.json())
@@ -178,7 +179,7 @@ function getStudentWithId(id) {
 			$('#s_date').text(student.enrolled);
 		});
 }
-
+// remove array value if attendance action is change
 function removeId(arr, id) {
 	var attendance = [];
 	for (var i = 0; i < arr.length; i++) {
